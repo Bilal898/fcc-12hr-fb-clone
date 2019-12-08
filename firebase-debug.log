@@ -5340,3 +5340,82 @@ SyntaxError: Unexpected token ')'
 [debug] [2019-12-08T14:12:15.984Z] [runtime-status] [7680] Ephemeral server survived.
 [info] i  functions: Finished "api" in ~1s
 [debug] [2019-12-08T14:12:16.915Z] [worker-api-63dc7c84-6e18-42e4-8f5e-f59d742ef684]: IDLE
+[debug] [2019-12-08T14:13:49.280Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-08T14:13:50.282Z] [worker-pool]: Shutting down IDLE worker (api)
+[debug] [2019-12-08T14:13:50.313Z] [worker-~diagnostic~-62aee440-1649-4266-921c-08c0aff2e08d]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\13636
+[debug] [2019-12-08T14:13:50.313Z] [worker-~diagnostic~-62aee440-1649-4266-921c-08c0aff2e08d]: BUSY
+[debug] [2019-12-08T14:13:50.313Z] [worker-api-63dc7c84-6e18-42e4-8f5e-f59d742ef684]: exited
+[debug] [2019-12-08T14:13:50.313Z] [worker-api-63dc7c84-6e18-42e4-8f5e-f59d742ef684]: FINISHED
+[debug] [2019-12-08T14:13:50.877Z] [runtime-status] [13636] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-08T14:13:50.879Z] [runtime-status] [13636] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-08T14:13:50.883Z] [runtime-status] [13636] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-08T14:13:50.887Z] [runtime-status] [13636] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-08T14:13:50.889Z] [runtime-status] [13636] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-08T14:13:51.620Z] [worker-~diagnostic~-62aee440-1649-4266-921c-08c0aff2e08d]: exited
+[debug] [2019-12-08T14:13:51.620Z] [worker-~diagnostic~-62aee440-1649-4266-921c-08c0aff2e08d]: FINISHED
+[debug] [2019-12-08T14:14:01.976Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/wVdiBfeaeEAMbvrytOlr --> api
+[debug] [2019-12-08T14:14:02.003Z] [worker-api-ba7db753-0db4-49c5-8164-fbe61eb19dc8]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\14568
+[debug] [2019-12-08T14:14:02.003Z] [worker-api-ba7db753-0db4-49c5-8164-fbe61eb19dc8]: BUSY
+[debug] [2019-12-08T14:14:02.505Z] [runtime-status] [14568] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-08T14:14:02.507Z] [runtime-status] [14568] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-08T14:14:02.512Z] [runtime-status] [14568] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-08T14:14:02.515Z] [runtime-status] [14568] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-08T14:14:02.517Z] [runtime-status] [14568] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-08T14:14:03.201Z] [runtime-status] [14568] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-08T14:14:03.202Z] [runtime-status] [14568] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-08T14:14:03.202Z] [runtime-status] [14568] Running api in mode HTTPS
+[debug] [2019-12-08T14:14:03.207Z] [runtime-status] [14568] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\14568
+[debug] [2019-12-08T14:14:03.209Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-08T14:14:03.217Z] [runtime-status] [14568] Ephemeral server handling GET request
+[debug] [2019-12-08T14:14:03.539Z] [runtime-status] [14568] Ephemeral server survived.
+[info] >  Error: 9 FAILED_PRECONDITION: The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/fcc-12hr-fb-clone/firestore/indexes?create_composite=ClJwcm9qZWN0cy9mY2MtMTJoci1mYi1jbG9uZS9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvY29tbWVudHMvaW5kZXhlcy9fEAEaDAoIc2NyZWFtSWQQARoNCgljcmVhdGVkQXQQAhoMCghfX25hbWVfXxAC
+[info] >      at callErrorFromStatus (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\@grpc\grpc-js\build\src\call.js:30:26)
+[info] >      at Http2CallStream.<anonymous> (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\@grpc\grpc-js\build\src\call.js:79:34)
+[info] >      at Http2CallStream.emit (events.js:215:7)
+[info] >      at D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\@grpc\grpc-js\build\src\call-stream.js:79:22
+[info] >      at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+[info] >    code: 9,
+[info] >    details: 'The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/fcc-12hr-fb-clone/firestore/indexes?create_composite=ClJwcm9qZWN0cy9mY2MtMTJoci1mYi1jbG9uZS9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvY29tbWVudHMvaW5kZXhlcy9fEAEaDAoIc2NyZWFtSWQQARoNCgljcmVhdGVkQXQQAhoMCghfX25hbWVfXxAC',
+[info] >    metadata: Metadata { internalRepr: Map {}, options: {} }
+[info] >  }
+[info] i  functions: Finished "api" in ~2s
+[debug] [2019-12-08T14:14:05.671Z] [worker-api-ba7db753-0db4-49c5-8164-fbe61eb19dc8]: IDLE
+[debug] [2019-12-08T14:18:33.135Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/HbO8qm1a4yAk0dQZWe6d --> api
+[debug] [2019-12-08T14:18:33.135Z] [worker-api-ba7db753-0db4-49c5-8164-fbe61eb19dc8]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\14568
+[debug] [2019-12-08T14:18:33.135Z] [worker-api-ba7db753-0db4-49c5-8164-fbe61eb19dc8]: BUSY
+[debug] [2019-12-08T14:18:33.136Z] [runtime-status] [14568] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-08T14:18:33.136Z] [runtime-status] [14568] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-08T14:18:33.136Z] [runtime-status] [14568] Running api in mode HTTPS
+[debug] [2019-12-08T14:18:33.137Z] [runtime-status] [14568] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\14568
+[debug] [2019-12-08T14:18:33.138Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-08T14:18:33.140Z] [runtime-status] [14568] Ephemeral server handling GET request
+[debug] [2019-12-08T14:18:33.141Z] [runtime-status] [14568] Ephemeral server survived.
+[info] >  Error: 9 FAILED_PRECONDITION: The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/fcc-12hr-fb-clone/firestore/indexes?create_composite=Cl1wcm9qZWN0cy9mY2MtMTJoci1mYi1jbG9uZS9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvY29tbWVudHMvaW5kZXhlcy9DSUNBZ09qWGg0RUsQARoMCghzY3JlYW1JZBABGg0KCWNyZWF0ZWRBdBACGgwKCF9fbmFtZV9fEAI
+[info] >      at callErrorFromStatus (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\@grpc\grpc-js\build\src\call.js:30:26)
+[info] >      at Http2CallStream.<anonymous> (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\@grpc\grpc-js\build\src\call.js:79:34)
+[info] >      at Http2CallStream.emit (events.js:215:7)
+[info] >      at D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\@grpc\grpc-js\build\src\call-stream.js:79:22
+[info] >      at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+[info] >    code: 9,
+[info] >    details: 'The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/fcc-12hr-fb-clone/firestore/indexes?create_composite=Cl1wcm9qZWN0cy9mY2MtMTJoci1mYi1jbG9uZS9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvY29tbWVudHMvaW5kZXhlcy9DSUNBZ09qWGg0RUsQARoMCghzY3JlYW1JZBABGg0KCWNyZWF0ZWRBdBACGgwKCF9fbmFtZV9fEAI',
+[info] >    metadata: Metadata { internalRepr: Map {}, options: {} }
+[info] >  }
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-12-08T14:18:34.462Z] [worker-api-ba7db753-0db4-49c5-8164-fbe61eb19dc8]: IDLE
+[debug] [2019-12-08T14:19:38.282Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/xSiDRiVx0z2ugnua4Oo6 --> api
+[debug] [2019-12-08T14:19:38.282Z] [worker-api-ba7db753-0db4-49c5-8164-fbe61eb19dc8]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\14568
+[debug] [2019-12-08T14:19:38.282Z] [worker-api-ba7db753-0db4-49c5-8164-fbe61eb19dc8]: BUSY
+[debug] [2019-12-08T14:19:38.283Z] [runtime-status] [14568] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-08T14:19:38.283Z] [runtime-status] [14568] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-08T14:19:38.283Z] [runtime-status] [14568] Running api in mode HTTPS
+[debug] [2019-12-08T14:19:38.283Z] [runtime-status] [14568] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\14568
+[debug] [2019-12-08T14:19:38.284Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-08T14:19:38.286Z] [runtime-status] [14568] Ephemeral server handling GET request
+[debug] [2019-12-08T14:19:38.286Z] [runtime-status] [14568] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-12-08T14:19:39.220Z] [worker-api-ba7db753-0db4-49c5-8164-fbe61eb19dc8]: IDLE
