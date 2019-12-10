@@ -273,3 +273,946 @@
 [info] >  }
 [info] i  functions: Finished "api" in ~4s
 [debug] [2019-12-09T14:10:28.956Z] [worker-api-8221fa94-073b-4a9a-a432-bdbcacc3d3ed]: IDLE
+[debug] [2019-12-09T14:48:17.872Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\index.js changed, reloading triggers
+[debug] [2019-12-09T14:48:18.874Z] [worker-pool]: Shutting down IDLE worker (api)
+[debug] [2019-12-09T14:48:18.914Z] [worker-~diagnostic~-8e852111-52c6-4e8b-b068-bba7fde32a4d]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\15300
+[debug] [2019-12-09T14:48:18.915Z] [worker-~diagnostic~-8e852111-52c6-4e8b-b068-bba7fde32a4d]: BUSY
+[debug] [2019-12-09T14:48:18.916Z] [worker-api-8221fa94-073b-4a9a-a432-bdbcacc3d3ed]: exited
+[debug] [2019-12-09T14:48:18.916Z] [worker-api-8221fa94-073b-4a9a-a432-bdbcacc3d3ed]: FINISHED
+[debug] [2019-12-09T14:48:19.438Z] [runtime-status] [15300] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-09T14:48:19.440Z] [runtime-status] [15300] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-09T14:48:19.443Z] [runtime-status] [15300] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-09T14:48:19.446Z] [runtime-status] [15300] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-09T14:48:19.448Z] [runtime-status] [15300] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  ReferenceError: likeScream is not defined
+    at Object.<anonymous> (D:\ReactProjects\fcc-12h-fb-clone\functions\index.js:17:43)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at C:\Users\b\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:718:33
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\b\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:4:58)
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2019-12-09T14:48:20.524Z] [worker-~diagnostic~-8e852111-52c6-4e8b-b068-bba7fde32a4d]: exited
+[debug] [2019-12-09T14:48:20.524Z] [worker-~diagnostic~-8e852111-52c6-4e8b-b068-bba7fde32a4d]: FINISHED
+[debug] [2019-12-09T14:59:14.539Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\index.js changed, reloading triggers
+[debug] [2019-12-09T14:59:15.558Z] [worker-~diagnostic~-652e46aa-29cb-4056-8cb4-675c460ee474]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\7744
+[debug] [2019-12-09T14:59:15.558Z] [worker-~diagnostic~-652e46aa-29cb-4056-8cb4-675c460ee474]: BUSY
+[debug] [2019-12-09T14:59:16.013Z] [runtime-status] [7744] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-09T14:59:16.014Z] [runtime-status] [7744] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-09T14:59:16.018Z] [runtime-status] [7744] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-09T14:59:16.020Z] [runtime-status] [7744] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-09T14:59:16.021Z] [runtime-status] [7744] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\express\lib\router\route.js:202:15)
+    at Function.app.<computed> [as get] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\express\lib\application.js:482:19)
+    at Object.<anonymous> (D:\ReactProjects\fcc-12h-fb-clone\functions\index.js:18:5)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at C:\Users\b\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:718:33
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2019-12-09T14:59:16.601Z] [worker-~diagnostic~-652e46aa-29cb-4056-8cb4-675c460ee474]: exited
+[debug] [2019-12-09T14:59:16.601Z] [worker-~diagnostic~-652e46aa-29cb-4056-8cb4-675c460ee474]: FINISHED
+[debug] [2019-12-09T15:00:18.064Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-09T15:00:19.097Z] [worker-~diagnostic~-eeab5155-15a3-4a89-b766-55e3a139a788]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\15128
+[debug] [2019-12-09T15:00:19.098Z] [worker-~diagnostic~-eeab5155-15a3-4a89-b766-55e3a139a788]: BUSY
+[debug] [2019-12-09T15:00:19.533Z] [runtime-status] [15128] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-09T15:00:19.534Z] [runtime-status] [15128] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-09T15:00:19.537Z] [runtime-status] [15128] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-09T15:00:19.541Z] [runtime-status] [15128] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-09T15:00:19.542Z] [runtime-status] [15128] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\express\lib\router\route.js:202:15)
+    at Function.app.<computed> [as get] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\express\lib\application.js:482:19)
+    at Object.<anonymous> (D:\ReactProjects\fcc-12h-fb-clone\functions\index.js:18:5)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at C:\Users\b\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:718:33
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2019-12-09T15:00:20.220Z] [worker-~diagnostic~-eeab5155-15a3-4a89-b766-55e3a139a788]: exited
+[debug] [2019-12-09T15:00:20.220Z] [worker-~diagnostic~-eeab5155-15a3-4a89-b766-55e3a139a788]: FINISHED
+[debug] [2019-12-10T04:42:18.322Z] ----------------------------------------------------------------------
+[debug] [2019-12-10T04:42:18.324Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\b\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-12-10T04:42:18.324Z] CLI Version:   7.9.0
+[debug] [2019-12-10T04:42:18.324Z] Platform:      win32
+[debug] [2019-12-10T04:42:18.324Z] Node Version:  v12.13.1
+[debug] [2019-12-10T04:42:18.326Z] Time:          Tue Dec 10 2019 09:42:18 GMT+0500 (Pakistan Standard Time)
+[debug] [2019-12-10T04:42:18.326Z] ----------------------------------------------------------------------
+[debug] [2019-12-10T04:42:18.326Z] 
+[debug] [2019-12-10T04:42:18.334Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-10T04:42:18.335Z] > authorizing via signed-in user
+[debug] [2019-12-10T04:42:18.336Z] [iam] checking project fcc-12hr-fb-clone for permissions ["firebase.projects.get"]
+[debug] [2019-12-10T04:42:18.337Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-12-10T04:42:18.337Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-12-10T04:42:18.791Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-10T04:42:18.806Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fcc-12hr-fb-clone:testIamPermissions  
+
+[debug] [2019-12-10T04:42:20.561Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-10T04:42:20.563Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fcc-12hr-fb-clone  
+ 
+[debug] [2019-12-10T04:42:21.237Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\ReactProjects\fcc-12h-fb-clone'...
+[info] 
+[warn] !  Your requested "node" version "8" doesn't match your global version "12"
+[info] +  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "D:\ReactProjects\fcc-12h-fb-clone\functions" for Cloud Functions...
+[debug] [2019-12-10T04:42:22.854Z] [worker-~diagnostic~-cd754da5-dd33-4372-b0dc-94e6ef668433]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\13664
+[debug] [2019-12-10T04:42:22.854Z] [worker-~diagnostic~-cd754da5-dd33-4372-b0dc-94e6ef668433]: BUSY
+[debug] [2019-12-10T04:42:23.217Z] [runtime-status] [13664] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T04:42:23.218Z] [runtime-status] [13664] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T04:42:23.221Z] [runtime-status] [13664] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T04:42:23.222Z] [runtime-status] [13664] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T04:42:23.223Z] [runtime-status] [13664] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\express\lib\router\route.js:202:15)
+    at Function.app.<computed> [as get] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\express\lib\application.js:482:19)
+    at Object.<anonymous> (D:\ReactProjects\fcc-12h-fb-clone\functions\index.js:18:5)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at C:\Users\b\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:718:33
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2019-12-10T04:42:24.398Z] [worker-~diagnostic~-cd754da5-dd33-4372-b0dc-94e6ef668433]: exited
+[debug] [2019-12-10T04:42:24.399Z] [worker-~diagnostic~-cd754da5-dd33-4372-b0dc-94e6ef668433]: FINISHED
+[debug] [2019-12-10T04:44:13.036Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T04:44:14.076Z] [worker-~diagnostic~-597a1a6d-4857-4b64-b8e0-33c6bbb7642b]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\15412
+[debug] [2019-12-10T04:44:14.076Z] [worker-~diagnostic~-597a1a6d-4857-4b64-b8e0-33c6bbb7642b]: BUSY
+[debug] [2019-12-10T04:44:14.491Z] [runtime-status] [15412] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T04:44:14.492Z] [runtime-status] [15412] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T04:44:14.494Z] [runtime-status] [15412] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T04:44:14.496Z] [runtime-status] [15412] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T04:44:14.497Z] [runtime-status] [15412] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\express\lib\router\route.js:202:15)
+    at Function.app.<computed> [as get] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\express\lib\application.js:482:19)
+    at Object.<anonymous> (D:\ReactProjects\fcc-12h-fb-clone\functions\index.js:18:5)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at C:\Users\b\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:718:33
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2019-12-10T04:44:15.020Z] [worker-~diagnostic~-597a1a6d-4857-4b64-b8e0-33c6bbb7642b]: exited
+[debug] [2019-12-10T04:44:15.020Z] [worker-~diagnostic~-597a1a6d-4857-4b64-b8e0-33c6bbb7642b]: FINISHED
+[debug] [2019-12-10T04:45:19.883Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\index.js changed, reloading triggers
+[debug] [2019-12-10T04:45:20.903Z] [worker-~diagnostic~-7d4f7955-c52d-4762-8253-c1260f6e86d3]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\9220
+[debug] [2019-12-10T04:45:20.903Z] [worker-~diagnostic~-7d4f7955-c52d-4762-8253-c1260f6e86d3]: BUSY
+[debug] [2019-12-10T04:45:21.382Z] [runtime-status] [9220] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T04:45:21.383Z] [runtime-status] [9220] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T04:45:21.386Z] [runtime-status] [9220] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T04:45:21.388Z] [runtime-status] [9220] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T04:45:21.390Z] [runtime-status] [9220] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[info] +  functions[api]: http function initialized (http://localhost:5000/fcc-12hr-fb-clone/us-central1/api).
+[debug] [2019-12-10T04:45:21.967Z] [worker-~diagnostic~-7d4f7955-c52d-4762-8253-c1260f6e86d3]: exited
+[debug] [2019-12-10T04:45:21.967Z] [worker-~diagnostic~-7d4f7955-c52d-4762-8253-c1260f6e86d3]: FINISHED
+[debug] [2019-12-10T04:45:32.317Z] Accepted request POST /fcc-12hr-fb-clone/us-central1/api/login --> api
+[debug] [2019-12-10T04:45:32.360Z] [worker-api-944057cd-90c0-4d59-ab4f-40a01d284327]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\8376
+[debug] [2019-12-10T04:45:32.360Z] [worker-api-944057cd-90c0-4d59-ab4f-40a01d284327]: BUSY
+[debug] [2019-12-10T04:45:32.786Z] [runtime-status] [8376] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T04:45:32.787Z] [runtime-status] [8376] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T04:45:32.790Z] [runtime-status] [8376] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T04:45:32.793Z] [runtime-status] [8376] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T04:45:32.794Z] [runtime-status] [8376] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T04:45:33.352Z] [runtime-status] [8376] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T04:45:33.353Z] [runtime-status] [8376] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T04:45:33.353Z] [runtime-status] [8376] Running api in mode HTTPS
+[debug] [2019-12-10T04:45:33.359Z] [runtime-status] [8376] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\8376
+[debug] [2019-12-10T04:45:33.362Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T04:45:33.391Z] [runtime-status] [8376] Ephemeral server handling POST request
+[debug] [2019-12-10T04:45:33.430Z] [runtime-status] [8376] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-12-10T04:45:34.535Z] [worker-api-944057cd-90c0-4d59-ab4f-40a01d284327]: IDLE
+[debug] [2019-12-10T04:57:29.243Z] Accepted request POST /fcc-12hr-fb-clone/us-central1/api/scream --> api
+[debug] [2019-12-10T04:57:29.244Z] [worker-api-944057cd-90c0-4d59-ab4f-40a01d284327]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\8376
+[debug] [2019-12-10T04:57:29.244Z] [worker-api-944057cd-90c0-4d59-ab4f-40a01d284327]: BUSY
+[debug] [2019-12-10T04:57:29.247Z] [runtime-status] [8376] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T04:57:29.249Z] [runtime-status] [8376] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T04:57:29.249Z] [runtime-status] [8376] Running api in mode HTTPS
+[debug] [2019-12-10T04:57:29.250Z] [runtime-status] [8376] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\8376
+[debug] [2019-12-10T04:57:29.253Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T04:57:29.260Z] [runtime-status] [8376] Ephemeral server handling POST request
+[debug] [2019-12-10T04:57:29.359Z] [runtime-status] [8376] Ephemeral server survived.
+[info] >  {
+[info] >    iss: 'https://securetoken.google.com/fcc-12hr-fb-clone',
+[info] >    aud: 'fcc-12hr-fb-clone',
+[info] >    auth_time: 1575952836,
+[info] >    user_id: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    sub: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    iat: 1575952836,
+[info] >    exp: 1575956436,
+[info] >    email: 'john@user.com',
+[info] >    email_verified: false,
+[info] >    firebase: { identities: { email: [Array] }, sign_in_provider: 'password' },
+[info] >    uid: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2'
+[info] >  }
+[info] i  functions: Finished "api" in ~4s
+[debug] [2019-12-10T04:57:33.659Z] [worker-api-944057cd-90c0-4d59-ab4f-40a01d284327]: IDLE
+[debug] [2019-12-10T05:07:51.136Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T05:07:52.139Z] [worker-pool]: Shutting down IDLE worker (api)
+[debug] [2019-12-10T05:07:52.162Z] [worker-~diagnostic~-f0d52d01-f753-4a88-b63d-16250ea7f005]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\8168
+[debug] [2019-12-10T05:07:52.162Z] [worker-~diagnostic~-f0d52d01-f753-4a88-b63d-16250ea7f005]: BUSY
+[debug] [2019-12-10T05:07:52.162Z] [worker-api-944057cd-90c0-4d59-ab4f-40a01d284327]: exited
+[debug] [2019-12-10T05:07:52.162Z] [worker-api-944057cd-90c0-4d59-ab4f-40a01d284327]: FINISHED
+[debug] [2019-12-10T05:07:52.875Z] [runtime-status] [8168] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:07:52.877Z] [runtime-status] [8168] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:07:52.882Z] [runtime-status] [8168] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:07:52.885Z] [runtime-status] [8168] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:07:52.888Z] [runtime-status] [8168] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:07:54.125Z] [worker-~diagnostic~-f0d52d01-f753-4a88-b63d-16250ea7f005]: exited
+[debug] [2019-12-10T05:07:54.126Z] [worker-~diagnostic~-f0d52d01-f753-4a88-b63d-16250ea7f005]: FINISHED
+[debug] [2019-12-10T05:13:18.907Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T05:13:19.925Z] [worker-~diagnostic~-cf995991-6e2b-42a4-b692-ea2b561158e0]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\11088
+[debug] [2019-12-10T05:13:19.925Z] [worker-~diagnostic~-cf995991-6e2b-42a4-b692-ea2b561158e0]: BUSY
+[debug] [2019-12-10T05:13:20.347Z] [runtime-status] [11088] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:13:20.348Z] [runtime-status] [11088] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:13:20.351Z] [runtime-status] [11088] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:13:20.353Z] [runtime-status] [11088] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:13:20.354Z] [runtime-status] [11088] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:13:21.050Z] [worker-~diagnostic~-cf995991-6e2b-42a4-b692-ea2b561158e0]: exited
+[debug] [2019-12-10T05:13:21.051Z] [worker-~diagnostic~-cf995991-6e2b-42a4-b692-ea2b561158e0]: FINISHED
+[debug] [2019-12-10T05:13:47.331Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T05:13:48.358Z] [worker-~diagnostic~-26043541-f3a5-433d-a9da-894e6dbcd6de]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\9772
+[debug] [2019-12-10T05:13:48.358Z] [worker-~diagnostic~-26043541-f3a5-433d-a9da-894e6dbcd6de]: BUSY
+[debug] [2019-12-10T05:13:48.885Z] [runtime-status] [9772] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:13:48.886Z] [runtime-status] [9772] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:13:48.891Z] [runtime-status] [9772] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:13:48.893Z] [runtime-status] [9772] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:13:48.894Z] [runtime-status] [9772] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:13:49.579Z] [worker-~diagnostic~-26043541-f3a5-433d-a9da-894e6dbcd6de]: exited
+[debug] [2019-12-10T05:13:49.580Z] [worker-~diagnostic~-26043541-f3a5-433d-a9da-894e6dbcd6de]: FINISHED
+[debug] [2019-12-10T05:14:57.867Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T05:14:58.914Z] [worker-~diagnostic~-d003f496-6bdf-4b6b-9b9b-8c404233c6e0]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\3284
+[debug] [2019-12-10T05:14:58.915Z] [worker-~diagnostic~-d003f496-6bdf-4b6b-9b9b-8c404233c6e0]: BUSY
+[debug] [2019-12-10T05:14:59.429Z] [runtime-status] [3284] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:14:59.430Z] [runtime-status] [3284] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:14:59.435Z] [runtime-status] [3284] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:14:59.437Z] [runtime-status] [3284] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:14:59.438Z] [runtime-status] [3284] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:15:00.096Z] [worker-~diagnostic~-d003f496-6bdf-4b6b-9b9b-8c404233c6e0]: exited
+[debug] [2019-12-10T05:15:00.097Z] [worker-~diagnostic~-d003f496-6bdf-4b6b-9b9b-8c404233c6e0]: FINISHED
+[debug] [2019-12-10T05:16:05.541Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T05:16:06.567Z] [worker-~diagnostic~-323fca10-4982-4cdd-b0c2-f148a9c33076]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\10644
+[debug] [2019-12-10T05:16:06.568Z] [worker-~diagnostic~-323fca10-4982-4cdd-b0c2-f148a9c33076]: BUSY
+[debug] [2019-12-10T05:16:07.210Z] [runtime-status] [10644] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:16:07.216Z] [runtime-status] [10644] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:16:07.225Z] [runtime-status] [10644] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:16:07.235Z] [runtime-status] [10644] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:16:07.236Z] [runtime-status] [10644] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:16:08.045Z] [worker-~diagnostic~-323fca10-4982-4cdd-b0c2-f148a9c33076]: exited
+[debug] [2019-12-10T05:16:08.045Z] [worker-~diagnostic~-323fca10-4982-4cdd-b0c2-f148a9c33076]: FINISHED
+[debug] [2019-12-10T05:18:23.904Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T05:18:24.956Z] [worker-~diagnostic~-820083bd-9f13-45fa-abf3-95cf9da7bfb4]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\8560
+[debug] [2019-12-10T05:18:24.956Z] [worker-~diagnostic~-820083bd-9f13-45fa-abf3-95cf9da7bfb4]: BUSY
+[debug] [2019-12-10T05:18:25.371Z] [runtime-status] [8560] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:18:25.373Z] [runtime-status] [8560] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:18:25.375Z] [runtime-status] [8560] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:18:25.377Z] [runtime-status] [8560] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:18:25.378Z] [runtime-status] [8560] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:18:25.911Z] [worker-~diagnostic~-820083bd-9f13-45fa-abf3-95cf9da7bfb4]: exited
+[debug] [2019-12-10T05:18:25.911Z] [worker-~diagnostic~-820083bd-9f13-45fa-abf3-95cf9da7bfb4]: FINISHED
+[debug] [2019-12-10T05:19:08.219Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T05:19:09.236Z] [worker-~diagnostic~-ae66b348-b4ed-465f-b0a2-53be2f607685]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\15332
+[debug] [2019-12-10T05:19:09.236Z] [worker-~diagnostic~-ae66b348-b4ed-465f-b0a2-53be2f607685]: BUSY
+[debug] [2019-12-10T05:19:09.718Z] [runtime-status] [15332] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:19:09.719Z] [runtime-status] [15332] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:19:09.722Z] [runtime-status] [15332] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:19:09.724Z] [runtime-status] [15332] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:19:09.725Z] [runtime-status] [15332] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:19:10.471Z] [worker-~diagnostic~-ae66b348-b4ed-465f-b0a2-53be2f607685]: exited
+[debug] [2019-12-10T05:19:10.471Z] [worker-~diagnostic~-ae66b348-b4ed-465f-b0a2-53be2f607685]: FINISHED
+[debug] [2019-12-10T05:22:37.094Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T05:22:38.116Z] [worker-~diagnostic~-446c6cc3-1724-4a61-b43a-1fb0ae5faca6]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\10328
+[debug] [2019-12-10T05:22:38.116Z] [worker-~diagnostic~-446c6cc3-1724-4a61-b43a-1fb0ae5faca6]: BUSY
+[debug] [2019-12-10T05:22:38.554Z] [runtime-status] [10328] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:22:38.555Z] [runtime-status] [10328] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:22:38.557Z] [runtime-status] [10328] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:22:38.559Z] [runtime-status] [10328] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:22:38.560Z] [runtime-status] [10328] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:22:39.194Z] [worker-~diagnostic~-446c6cc3-1724-4a61-b43a-1fb0ae5faca6]: exited
+[debug] [2019-12-10T05:22:39.194Z] [worker-~diagnostic~-446c6cc3-1724-4a61-b43a-1fb0ae5faca6]: FINISHED
+[debug] [2019-12-10T05:35:29.723Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T05:35:30.749Z] [worker-~diagnostic~-52df90e3-48b1-4a52-bde9-8c46c3dbcfa1]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\12328
+[debug] [2019-12-10T05:35:30.749Z] [worker-~diagnostic~-52df90e3-48b1-4a52-bde9-8c46c3dbcfa1]: BUSY
+[debug] [2019-12-10T05:35:31.187Z] [runtime-status] [12328] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:35:31.191Z] [runtime-status] [12328] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:35:31.196Z] [runtime-status] [12328] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:35:31.199Z] [runtime-status] [12328] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:35:31.201Z] [runtime-status] [12328] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:35:31.880Z] [worker-~diagnostic~-52df90e3-48b1-4a52-bde9-8c46c3dbcfa1]: exited
+[debug] [2019-12-10T05:35:31.880Z] [worker-~diagnostic~-52df90e3-48b1-4a52-bde9-8c46c3dbcfa1]: FINISHED
+[debug] [2019-12-10T05:35:38.795Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T05:35:39.818Z] [worker-~diagnostic~-283f201b-d27a-4659-93a6-132e8901fd12]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\7516
+[debug] [2019-12-10T05:35:39.818Z] [worker-~diagnostic~-283f201b-d27a-4659-93a6-132e8901fd12]: BUSY
+[debug] [2019-12-10T05:35:40.201Z] [runtime-status] [7516] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:35:40.203Z] [runtime-status] [7516] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:35:40.205Z] [runtime-status] [7516] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:35:40.207Z] [runtime-status] [7516] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:35:40.208Z] [runtime-status] [7516] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:35:40.783Z] [worker-~diagnostic~-283f201b-d27a-4659-93a6-132e8901fd12]: exited
+[debug] [2019-12-10T05:35:40.784Z] [worker-~diagnostic~-283f201b-d27a-4659-93a6-132e8901fd12]: FINISHED
+[debug] [2019-12-10T05:35:48.480Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T05:35:49.522Z] [worker-~diagnostic~-2808bb01-eaa9-4070-a8fc-7f73e4a59a18]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\16204
+[debug] [2019-12-10T05:35:49.522Z] [worker-~diagnostic~-2808bb01-eaa9-4070-a8fc-7f73e4a59a18]: BUSY
+[debug] [2019-12-10T05:35:49.959Z] [runtime-status] [16204] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:35:49.960Z] [runtime-status] [16204] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:35:49.963Z] [runtime-status] [16204] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:35:49.965Z] [runtime-status] [16204] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:35:49.967Z] [runtime-status] [16204] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:35:50.636Z] [worker-~diagnostic~-2808bb01-eaa9-4070-a8fc-7f73e4a59a18]: exited
+[debug] [2019-12-10T05:35:50.636Z] [worker-~diagnostic~-2808bb01-eaa9-4070-a8fc-7f73e4a59a18]: FINISHED
+[debug] [2019-12-10T05:40:45.308Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T05:40:46.333Z] [worker-~diagnostic~-47750697-c691-4d95-bbf4-31fc4ba3f3ea]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\11840
+[debug] [2019-12-10T05:40:46.333Z] [worker-~diagnostic~-47750697-c691-4d95-bbf4-31fc4ba3f3ea]: BUSY
+[debug] [2019-12-10T05:40:46.853Z] [runtime-status] [11840] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:40:46.855Z] [runtime-status] [11840] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:40:46.858Z] [runtime-status] [11840] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:40:46.861Z] [runtime-status] [11840] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:40:46.863Z] [runtime-status] [11840] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:40:47.529Z] [worker-~diagnostic~-47750697-c691-4d95-bbf4-31fc4ba3f3ea]: exited
+[debug] [2019-12-10T05:40:47.529Z] [worker-~diagnostic~-47750697-c691-4d95-bbf4-31fc4ba3f3ea]: FINISHED
+[debug] [2019-12-10T05:41:52.336Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\index.js changed, reloading triggers
+[debug] [2019-12-10T05:41:53.368Z] [worker-~diagnostic~-008c0f76-6c09-463e-b3ce-65f2d3144f50]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\8684
+[debug] [2019-12-10T05:41:53.368Z] [worker-~diagnostic~-008c0f76-6c09-463e-b3ce-65f2d3144f50]: BUSY
+[debug] [2019-12-10T05:41:53.835Z] [runtime-status] [8684] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:41:53.836Z] [runtime-status] [8684] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:41:53.840Z] [runtime-status] [8684] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:41:53.842Z] [runtime-status] [8684] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:41:53.843Z] [runtime-status] [8684] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  D:\ReactProjects\fcc-12h-fb-clone\functions\index.js:18
+app.get'/scream/:screamId/like', FBAuth, likeScream)
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at C:\Users\b\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:718:33
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\b\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:4:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2019-12-10T05:41:53.907Z] [worker-~diagnostic~-008c0f76-6c09-463e-b3ce-65f2d3144f50]: exited
+[debug] [2019-12-10T05:41:53.907Z] [worker-~diagnostic~-008c0f76-6c09-463e-b3ce-65f2d3144f50]: FINISHED
+[debug] [2019-12-10T05:42:15.740Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\index.js changed, reloading triggers
+[debug] [2019-12-10T05:42:16.766Z] [worker-~diagnostic~-8b3b90db-1bd6-46d9-8591-8591164c6196]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\8044
+[debug] [2019-12-10T05:42:16.766Z] [worker-~diagnostic~-8b3b90db-1bd6-46d9-8591-8591164c6196]: BUSY
+[debug] [2019-12-10T05:42:17.211Z] [runtime-status] [8044] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:42:17.212Z] [runtime-status] [8044] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:42:17.215Z] [runtime-status] [8044] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:42:17.217Z] [runtime-status] [8044] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:42:17.218Z] [runtime-status] [8044] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  SyntaxError: Invalid regular expression: /^(\/scream\/(?:([^\/]+?))\/unlike\/?$/: Unterminated group
+    at new RegExp (<anonymous>)
+    at pathtoRegexp (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\path-to-regexp\index.js:128:10)
+    at new Layer (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\express\lib\router\index.js:494:15)
+    at Function.app.<computed> [as get] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\express\lib\application.js:481:30)
+    at Object.<anonymous> (D:\ReactProjects\fcc-12h-fb-clone\functions\index.js:19:5)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2019-12-10T05:42:17.760Z] [worker-~diagnostic~-8b3b90db-1bd6-46d9-8591-8591164c6196]: exited
+[debug] [2019-12-10T05:42:17.760Z] [worker-~diagnostic~-8b3b90db-1bd6-46d9-8591-8591164c6196]: FINISHED
+[debug] [2019-12-10T05:42:52.228Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\index.js changed, reloading triggers
+[debug] [2019-12-10T05:42:53.279Z] [worker-~diagnostic~-3a725a6a-1a6e-4bc4-8b41-f2bd10b02ab2]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\14452
+[debug] [2019-12-10T05:42:53.280Z] [worker-~diagnostic~-3a725a6a-1a6e-4bc4-8b41-f2bd10b02ab2]: BUSY
+[debug] [2019-12-10T05:42:53.748Z] [runtime-status] [14452] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:42:53.750Z] [runtime-status] [14452] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:42:53.752Z] [runtime-status] [14452] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:42:53.754Z] [runtime-status] [14452] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:42:53.755Z] [runtime-status] [14452] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:42:54.454Z] [worker-~diagnostic~-3a725a6a-1a6e-4bc4-8b41-f2bd10b02ab2]: exited
+[debug] [2019-12-10T05:42:54.455Z] [worker-~diagnostic~-3a725a6a-1a6e-4bc4-8b41-f2bd10b02ab2]: FINISHED
+[debug] [2019-12-10T05:43:18.261Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/xSiDRiVx0z2ugnua4Oo6/like --> api
+[debug] [2019-12-10T05:43:18.306Z] [worker-api-d21c5bda-7927-4c87-afa5-2a3d34eaad79]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\15476
+[debug] [2019-12-10T05:43:18.306Z] [worker-api-d21c5bda-7927-4c87-afa5-2a3d34eaad79]: BUSY
+[debug] [2019-12-10T05:43:18.728Z] [runtime-status] [15476] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:43:18.729Z] [runtime-status] [15476] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:43:18.733Z] [runtime-status] [15476] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:43:18.736Z] [runtime-status] [15476] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:43:18.737Z] [runtime-status] [15476] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:43:19.322Z] [runtime-status] [15476] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T05:43:19.323Z] [runtime-status] [15476] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T05:43:19.323Z] [runtime-status] [15476] Running api in mode HTTPS
+[debug] [2019-12-10T05:43:19.326Z] [runtime-status] [15476] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\15476
+[debug] [2019-12-10T05:43:19.328Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T05:43:19.348Z] [runtime-status] [15476] Ephemeral server handling GET request
+[debug] [2019-12-10T05:43:19.413Z] [runtime-status] [15476] Ephemeral server survived.
+[info] >  FirebaseAuthError: Firebase ID token has expired. Get a fresh ID token from your client app and try again (auth/id-token-expired). See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve an ID token.
+[info] >      at FirebaseAuthError.FirebaseError [as constructor] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\utils\error.js:42:28)
+[info] >      at FirebaseAuthError.PrefixedFirebaseError [as constructor] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\utils\error.js:88:28)
+[info] >      at new FirebaseAuthError (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\utils\error.js:147:16)
+[info] >      at D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\auth\token-verifier.js:192:39
+[info] >      at Object.module.exports [as verify] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\jsonwebtoken\verify.js:126:14)
+[info] >      at D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\auth\token-verifier.js:184:17
+[info] >      at new Promise (<anonymous>)
+[info] >      at FirebaseTokenVerifier.verifyJwtSignatureWithKey (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\auth\token-verifier.js:183:16)
+[info] >      at D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\auth\token-verifier.js:168:30
+[info] >      at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+[info] >    errorInfo: {
+[info] >      code: 'auth/id-token-expired',
+[info] >      message: 'Firebase ID token has expired. Get a fresh ID token from your client app and try again (auth/id-token-expired). See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve an ID token.'
+[info] >    },
+[info] >    codePrefix: 'auth'
+[info] >  }
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-12-10T05:43:20.502Z] [worker-api-d21c5bda-7927-4c87-afa5-2a3d34eaad79]: IDLE
+[debug] [2019-12-10T05:43:49.876Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/xSiDRiVx0z2ugnua4Oo6/like --> api
+[debug] [2019-12-10T05:43:49.877Z] [worker-api-d21c5bda-7927-4c87-afa5-2a3d34eaad79]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\15476
+[debug] [2019-12-10T05:43:49.877Z] [worker-api-d21c5bda-7927-4c87-afa5-2a3d34eaad79]: BUSY
+[debug] [2019-12-10T05:43:49.879Z] [runtime-status] [15476] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T05:43:49.880Z] [runtime-status] [15476] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T05:43:49.881Z] [runtime-status] [15476] Running api in mode HTTPS
+[debug] [2019-12-10T05:43:49.882Z] [runtime-status] [15476] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\15476
+[debug] [2019-12-10T05:43:49.884Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T05:43:49.891Z] [runtime-status] [15476] Ephemeral server handling GET request
+[debug] [2019-12-10T05:43:49.894Z] [runtime-status] [15476] Ephemeral server survived.
+[info] >  FirebaseAuthError: Firebase ID token has expired. Get a fresh ID token from your client app and try again (auth/id-token-expired). See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve an ID token.
+[info] >      at FirebaseAuthError.FirebaseError [as constructor] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\utils\error.js:42:28)
+[info] >      at FirebaseAuthError.PrefixedFirebaseError [as constructor] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\utils\error.js:88:28)
+[info] >      at new FirebaseAuthError (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\utils\error.js:147:16)
+[info] >      at D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\auth\token-verifier.js:192:39
+[info] >      at Object.module.exports [as verify] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\jsonwebtoken\verify.js:126:14)
+[info] >      at D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\auth\token-verifier.js:184:17
+[info] >      at new Promise (<anonymous>)
+[info] >      at FirebaseTokenVerifier.verifyJwtSignatureWithKey (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\auth\token-verifier.js:183:16)
+[info] >      at D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\auth\token-verifier.js:168:30
+[info] >      at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+[info] >    errorInfo: {
+[info] >      code: 'auth/id-token-expired',
+[info] >      message: 'Firebase ID token has expired. Get a fresh ID token from your client app and try again (auth/id-token-expired). See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve an ID token.'
+[info] >    },
+[info] >    codePrefix: 'auth'
+[info] >  }
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-12-10T05:43:49.909Z] [worker-api-d21c5bda-7927-4c87-afa5-2a3d34eaad79]: IDLE
+[debug] [2019-12-10T05:44:25.132Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/xSiDRiVx0z2ugnua4Oo6/like --> api
+[debug] [2019-12-10T05:44:25.132Z] [worker-api-d21c5bda-7927-4c87-afa5-2a3d34eaad79]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\15476
+[debug] [2019-12-10T05:44:25.133Z] [worker-api-d21c5bda-7927-4c87-afa5-2a3d34eaad79]: BUSY
+[debug] [2019-12-10T05:44:25.134Z] [runtime-status] [15476] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T05:44:25.135Z] [runtime-status] [15476] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T05:44:25.135Z] [runtime-status] [15476] Running api in mode HTTPS
+[debug] [2019-12-10T05:44:25.136Z] [runtime-status] [15476] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\15476
+[debug] [2019-12-10T05:44:25.138Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T05:44:25.143Z] [runtime-status] [15476] Ephemeral server handling GET request
+[debug] [2019-12-10T05:44:25.145Z] [runtime-status] [15476] Ephemeral server survived.
+[info] >  FirebaseAuthError: Firebase ID token has expired. Get a fresh ID token from your client app and try again (auth/id-token-expired). See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve an ID token.
+[info] >      at FirebaseAuthError.FirebaseError [as constructor] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\utils\error.js:42:28)
+[info] >      at FirebaseAuthError.PrefixedFirebaseError [as constructor] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\utils\error.js:88:28)
+[info] >      at new FirebaseAuthError (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\utils\error.js:147:16)
+[info] >      at D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\auth\token-verifier.js:192:39
+[info] >      at Object.module.exports [as verify] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\jsonwebtoken\verify.js:126:14)
+[info] >      at D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\auth\token-verifier.js:184:17
+[info] >      at new Promise (<anonymous>)
+[info] >      at FirebaseTokenVerifier.verifyJwtSignatureWithKey (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\auth\token-verifier.js:183:16)
+[info] >      at D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\firebase-admin\lib\auth\token-verifier.js:168:30
+[info] >      at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+[info] >    errorInfo: {
+[info] >      code: 'auth/id-token-expired',
+[info] >      message: 'Firebase ID token has expired. Get a fresh ID token from your client app and try again (auth/id-token-expired). See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve an ID token.'
+[info] >    },
+[info] >    codePrefix: 'auth'
+[info] >  }
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-12-10T05:44:25.160Z] [worker-api-d21c5bda-7927-4c87-afa5-2a3d34eaad79]: IDLE
+[debug] [2019-12-10T05:44:42.843Z] Accepted request POST /fcc-12hr-fb-clone/us-central1/api/login --> api
+[debug] [2019-12-10T05:44:42.843Z] [worker-api-d21c5bda-7927-4c87-afa5-2a3d34eaad79]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\15476
+[debug] [2019-12-10T05:44:42.843Z] [worker-api-d21c5bda-7927-4c87-afa5-2a3d34eaad79]: BUSY
+[debug] [2019-12-10T05:44:42.845Z] [runtime-status] [15476] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T05:44:42.846Z] [runtime-status] [15476] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T05:44:42.846Z] [runtime-status] [15476] Running api in mode HTTPS
+[debug] [2019-12-10T05:44:42.847Z] [runtime-status] [15476] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\15476
+[debug] [2019-12-10T05:44:42.849Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T05:44:42.853Z] [runtime-status] [15476] Ephemeral server handling POST request
+[debug] [2019-12-10T05:44:42.883Z] [runtime-status] [15476] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-12-10T05:44:43.924Z] [worker-api-d21c5bda-7927-4c87-afa5-2a3d34eaad79]: IDLE
+[debug] [2019-12-10T05:45:11.056Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/xSiDRiVx0z2ugnua4Oo6/like --> api
+[debug] [2019-12-10T05:45:11.056Z] [worker-api-d21c5bda-7927-4c87-afa5-2a3d34eaad79]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\15476
+[debug] [2019-12-10T05:45:11.057Z] [worker-api-d21c5bda-7927-4c87-afa5-2a3d34eaad79]: BUSY
+[debug] [2019-12-10T05:45:11.057Z] [runtime-status] [15476] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T05:45:11.058Z] [runtime-status] [15476] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T05:45:11.058Z] [runtime-status] [15476] Running api in mode HTTPS
+[debug] [2019-12-10T05:45:11.061Z] [runtime-status] [15476] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\15476
+[debug] [2019-12-10T05:45:11.062Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T05:45:11.065Z] [runtime-status] [15476] Ephemeral server handling GET request
+[debug] [2019-12-10T05:45:11.067Z] [runtime-status] [15476] Ephemeral server survived.
+[info] >  {
+[info] >    iss: 'https://securetoken.google.com/fcc-12hr-fb-clone',
+[info] >    aud: 'fcc-12hr-fb-clone',
+[info] >    auth_time: 1575956385,
+[info] >    user_id: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    sub: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    iat: 1575956385,
+[info] >    exp: 1575959985,
+[info] >    email: 'john@user.com',
+[info] >    email_verified: false,
+[info] >    firebase: { identities: { email: [Array] }, sign_in_provider: 'password' },
+[info] >    uid: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2'
+[info] >  }
+[info] >  TypeError: Cannot read property 'handle' of undefined
+[info] >      at exports.likeScream (D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js:107:44)
+[info] >      at Layer.handle [as handle_request] (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\express\lib\router\layer.js:95:5)
+[info] >      at next (D:\ReactProjects\fcc-12h-fb-clone\functions\node_modules\express\lib\router\route.js:137:13)
+[info] >      at D:\ReactProjects\fcc-12h-fb-clone\functions\util\FBAuth.js:23:20
+[info] >      at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[info] i  functions: Finished "api" in ~2s
+[debug] [2019-12-10T05:45:13.092Z] [worker-api-d21c5bda-7927-4c87-afa5-2a3d34eaad79]: IDLE
+[debug] [2019-12-10T05:45:53.072Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T05:45:54.074Z] [worker-pool]: Shutting down IDLE worker (api)
+[debug] [2019-12-10T05:45:54.124Z] [worker-~diagnostic~-bdb7db72-f5cd-46a9-a63d-696b3991a6fe]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\11956
+[debug] [2019-12-10T05:45:54.124Z] [worker-~diagnostic~-bdb7db72-f5cd-46a9-a63d-696b3991a6fe]: BUSY
+[debug] [2019-12-10T05:45:54.125Z] [worker-api-d21c5bda-7927-4c87-afa5-2a3d34eaad79]: exited
+[debug] [2019-12-10T05:45:54.125Z] [worker-api-d21c5bda-7927-4c87-afa5-2a3d34eaad79]: FINISHED
+[debug] [2019-12-10T05:45:54.603Z] [runtime-status] [11956] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:45:54.604Z] [runtime-status] [11956] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:45:54.607Z] [runtime-status] [11956] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:45:54.610Z] [runtime-status] [11956] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:45:54.611Z] [runtime-status] [11956] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:45:55.225Z] [worker-~diagnostic~-bdb7db72-f5cd-46a9-a63d-696b3991a6fe]: exited
+[debug] [2019-12-10T05:45:55.225Z] [worker-~diagnostic~-bdb7db72-f5cd-46a9-a63d-696b3991a6fe]: FINISHED
+[debug] [2019-12-10T05:46:02.004Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/xSiDRiVx0z2ugnua4Oo6/like --> api
+[debug] [2019-12-10T05:46:02.047Z] [worker-api-f700118e-145e-46f1-b26d-701af87ec6db]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\5848
+[debug] [2019-12-10T05:46:02.047Z] [worker-api-f700118e-145e-46f1-b26d-701af87ec6db]: BUSY
+[debug] [2019-12-10T05:46:02.463Z] [runtime-status] [5848] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:46:02.464Z] [runtime-status] [5848] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:46:02.467Z] [runtime-status] [5848] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:46:02.470Z] [runtime-status] [5848] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:46:02.472Z] [runtime-status] [5848] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:46:03.138Z] [runtime-status] [5848] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T05:46:03.138Z] [runtime-status] [5848] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T05:46:03.138Z] [runtime-status] [5848] Running api in mode HTTPS
+[debug] [2019-12-10T05:46:03.143Z] [runtime-status] [5848] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\5848
+[debug] [2019-12-10T05:46:03.145Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T05:46:03.166Z] [runtime-status] [5848] Ephemeral server handling GET request
+[debug] [2019-12-10T05:46:03.261Z] [runtime-status] [5848] Ephemeral server survived.
+[info] >  {
+[info] >    iss: 'https://securetoken.google.com/fcc-12hr-fb-clone',
+[info] >    aud: 'fcc-12hr-fb-clone',
+[info] >    auth_time: 1575956385,
+[info] >    user_id: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    sub: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    iat: 1575956385,
+[info] >    exp: 1575959985,
+[info] >    email: 'john@user.com',
+[info] >    email_verified: false,
+[info] >    firebase: { identities: { email: [Array] }, sign_in_provider: 'password' },
+[info] >    uid: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2'
+[info] >  }
+[info] i  functions: Finished "api" in ~5s
+[debug] [2019-12-10T05:46:08.215Z] [worker-api-f700118e-145e-46f1-b26d-701af87ec6db]: IDLE
+[debug] [2019-12-10T05:46:21.593Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/xSiDRiVx0z2ugnua4Oo6/like --> api
+[debug] [2019-12-10T05:46:21.593Z] [worker-api-f700118e-145e-46f1-b26d-701af87ec6db]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\5848
+[debug] [2019-12-10T05:46:21.593Z] [worker-api-f700118e-145e-46f1-b26d-701af87ec6db]: BUSY
+[debug] [2019-12-10T05:46:21.594Z] [runtime-status] [5848] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T05:46:21.595Z] [runtime-status] [5848] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T05:46:21.595Z] [runtime-status] [5848] Running api in mode HTTPS
+[debug] [2019-12-10T05:46:21.596Z] [runtime-status] [5848] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\5848
+[debug] [2019-12-10T05:46:21.597Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T05:46:21.601Z] [runtime-status] [5848] Ephemeral server handling GET request
+[info] >  {
+[info] >    iss: 'https://securetoken.google.com/fcc-12hr-fb-clone',
+[info] >    aud: 'fcc-12hr-fb-clone',
+[info] >    auth_time: 1575956385,
+[info] >    user_id: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    sub: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    iat: 1575956385,
+[info] >    exp: 1575959985,
+[info] >    email: 'john@user.com',
+[info] >    email_verified: false,
+[info] >    firebase: { identities: { email: [Array] }, sign_in_provider: 'password' },
+[info] >    uid: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2'
+[info] >  }
+[debug] [2019-12-10T05:46:21.607Z] [runtime-status] [5848] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-12-10T05:46:22.892Z] [worker-api-f700118e-145e-46f1-b26d-701af87ec6db]: IDLE
+[debug] [2019-12-10T05:48:09.968Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T05:48:10.970Z] [worker-pool]: Shutting down IDLE worker (api)
+[debug] [2019-12-10T05:48:11.013Z] [worker-~diagnostic~-6f49e4b6-248a-4106-90a0-9757ea594c31]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\9008
+[debug] [2019-12-10T05:48:11.013Z] [worker-~diagnostic~-6f49e4b6-248a-4106-90a0-9757ea594c31]: BUSY
+[debug] [2019-12-10T05:48:11.014Z] [worker-api-f700118e-145e-46f1-b26d-701af87ec6db]: exited
+[debug] [2019-12-10T05:48:11.014Z] [worker-api-f700118e-145e-46f1-b26d-701af87ec6db]: FINISHED
+[debug] [2019-12-10T05:48:11.469Z] [runtime-status] [9008] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:48:11.471Z] [runtime-status] [9008] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:48:11.474Z] [runtime-status] [9008] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:48:11.476Z] [runtime-status] [9008] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:48:11.477Z] [runtime-status] [9008] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:48:12.044Z] [worker-~diagnostic~-6f49e4b6-248a-4106-90a0-9757ea594c31]: exited
+[debug] [2019-12-10T05:48:12.044Z] [worker-~diagnostic~-6f49e4b6-248a-4106-90a0-9757ea594c31]: FINISHED
+[debug] [2019-12-10T05:48:31.773Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T05:48:32.818Z] [worker-~diagnostic~-b3c894fb-7276-4c8c-8737-81303065c597]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\2288
+[debug] [2019-12-10T05:48:32.819Z] [worker-~diagnostic~-b3c894fb-7276-4c8c-8737-81303065c597]: BUSY
+[debug] [2019-12-10T05:48:33.314Z] [runtime-status] [2288] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:48:33.315Z] [runtime-status] [2288] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:48:33.319Z] [runtime-status] [2288] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:48:33.321Z] [runtime-status] [2288] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:48:33.322Z] [runtime-status] [2288] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:48:33.883Z] [worker-~diagnostic~-b3c894fb-7276-4c8c-8737-81303065c597]: exited
+[debug] [2019-12-10T05:48:33.883Z] [worker-~diagnostic~-b3c894fb-7276-4c8c-8737-81303065c597]: FINISHED
+[debug] [2019-12-10T05:49:10.126Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T05:49:11.167Z] [worker-~diagnostic~-d01f657e-05e5-4e14-b8a5-ab4415833b23]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\2384
+[debug] [2019-12-10T05:49:11.167Z] [worker-~diagnostic~-d01f657e-05e5-4e14-b8a5-ab4415833b23]: BUSY
+[debug] [2019-12-10T05:49:11.630Z] [runtime-status] [2384] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:49:11.631Z] [runtime-status] [2384] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:49:11.635Z] [runtime-status] [2384] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:49:11.638Z] [runtime-status] [2384] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:49:11.639Z] [runtime-status] [2384] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:49:12.174Z] [worker-~diagnostic~-d01f657e-05e5-4e14-b8a5-ab4415833b23]: exited
+[debug] [2019-12-10T05:49:12.174Z] [worker-~diagnostic~-d01f657e-05e5-4e14-b8a5-ab4415833b23]: FINISHED
+[debug] [2019-12-10T05:49:41.850Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/xSiDRiVx0z2ugnua4Oo6/like --> api
+[debug] [2019-12-10T05:49:41.887Z] [worker-api-48aaa0f6-674c-4424-8b2f-e5f08c526632]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\14196
+[debug] [2019-12-10T05:49:41.887Z] [worker-api-48aaa0f6-674c-4424-8b2f-e5f08c526632]: BUSY
+[debug] [2019-12-10T05:49:42.284Z] [runtime-status] [14196] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T05:49:42.286Z] [runtime-status] [14196] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T05:49:42.289Z] [runtime-status] [14196] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T05:49:42.290Z] [runtime-status] [14196] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T05:49:42.291Z] [runtime-status] [14196] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T05:49:42.850Z] [runtime-status] [14196] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T05:49:42.851Z] [runtime-status] [14196] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T05:49:42.851Z] [runtime-status] [14196] Running api in mode HTTPS
+[debug] [2019-12-10T05:49:42.855Z] [runtime-status] [14196] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\14196
+[debug] [2019-12-10T05:49:42.858Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T05:49:42.878Z] [runtime-status] [14196] Ephemeral server handling GET request
+[debug] [2019-12-10T05:49:42.944Z] [runtime-status] [14196] Ephemeral server survived.
+[info] >  {
+[info] >    iss: 'https://securetoken.google.com/fcc-12hr-fb-clone',
+[info] >    aud: 'fcc-12hr-fb-clone',
+[info] >    auth_time: 1575956385,
+[info] >    user_id: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    sub: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    iat: 1575956385,
+[info] >    exp: 1575959985,
+[info] >    email: 'john@user.com',
+[info] >    email_verified: false,
+[info] >    firebase: { identities: { email: [Array] }, sign_in_provider: 'password' },
+[info] >    uid: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2'
+[info] >  }
+[info] i  functions: Finished "api" in ~5s
+[debug] [2019-12-10T05:49:47.921Z] [worker-api-48aaa0f6-674c-4424-8b2f-e5f08c526632]: IDLE
+[debug] [2019-12-10T06:03:05.273Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/6sIPrLUNpNNYANWfwRE4/like --> api
+[debug] [2019-12-10T06:03:05.273Z] [worker-api-48aaa0f6-674c-4424-8b2f-e5f08c526632]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\14196
+[debug] [2019-12-10T06:03:05.273Z] [worker-api-48aaa0f6-674c-4424-8b2f-e5f08c526632]: BUSY
+[debug] [2019-12-10T06:03:05.275Z] [runtime-status] [14196] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T06:03:05.276Z] [runtime-status] [14196] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T06:03:05.277Z] [runtime-status] [14196] Running api in mode HTTPS
+[debug] [2019-12-10T06:03:05.278Z] [runtime-status] [14196] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\14196
+[debug] [2019-12-10T06:03:05.280Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T06:03:05.286Z] [runtime-status] [14196] Ephemeral server handling GET request
+[debug] [2019-12-10T06:03:05.289Z] [runtime-status] [14196] Ephemeral server survived.
+[info] >  {
+[info] >    iss: 'https://securetoken.google.com/fcc-12hr-fb-clone',
+[info] >    aud: 'fcc-12hr-fb-clone',
+[info] >    auth_time: 1575956385,
+[info] >    user_id: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    sub: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    iat: 1575956385,
+[info] >    exp: 1575959985,
+[info] >    email: 'john@user.com',
+[info] >    email_verified: false,
+[info] >    firebase: { identities: { email: [Array] }, sign_in_provider: 'password' },
+[info] >    uid: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2'
+[info] >  }
+[info] i  functions: Finished "api" in ~2s
+[debug] [2019-12-10T06:03:07.539Z] [worker-api-48aaa0f6-674c-4424-8b2f-e5f08c526632]: IDLE
+[debug] [2019-12-10T06:04:05.226Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/6sIPrLUNpNNYANWfwRE4/like --> api
+[debug] [2019-12-10T06:04:05.226Z] [worker-api-48aaa0f6-674c-4424-8b2f-e5f08c526632]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\14196
+[debug] [2019-12-10T06:04:05.226Z] [worker-api-48aaa0f6-674c-4424-8b2f-e5f08c526632]: BUSY
+[debug] [2019-12-10T06:04:05.227Z] [runtime-status] [14196] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T06:04:05.228Z] [runtime-status] [14196] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T06:04:05.228Z] [runtime-status] [14196] Running api in mode HTTPS
+[debug] [2019-12-10T06:04:05.228Z] [runtime-status] [14196] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\14196
+[debug] [2019-12-10T06:04:05.230Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T06:04:05.233Z] [runtime-status] [14196] Ephemeral server handling GET request
+[debug] [2019-12-10T06:04:05.241Z] [runtime-status] [14196] Ephemeral server survived.
+[info] >  {
+[info] >    iss: 'https://securetoken.google.com/fcc-12hr-fb-clone',
+[info] >    aud: 'fcc-12hr-fb-clone',
+[info] >    auth_time: 1575956385,
+[info] >    user_id: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    sub: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    iat: 1575956385,
+[info] >    exp: 1575959985,
+[info] >    email: 'john@user.com',
+[info] >    email_verified: false,
+[info] >    firebase: { identities: { email: [Array] }, sign_in_provider: 'password' },
+[info] >    uid: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2'
+[info] >  }
+[info] i  functions: Finished "api" in ~2s
+[debug] [2019-12-10T06:04:07.524Z] [worker-api-48aaa0f6-674c-4424-8b2f-e5f08c526632]: IDLE
+[debug] [2019-12-10T06:04:51.650Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/6sIPrLUNpNNYANWfwRE4/unlike --> api
+[debug] [2019-12-10T06:04:51.650Z] [worker-api-48aaa0f6-674c-4424-8b2f-e5f08c526632]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\14196
+[debug] [2019-12-10T06:04:51.650Z] [worker-api-48aaa0f6-674c-4424-8b2f-e5f08c526632]: BUSY
+[debug] [2019-12-10T06:04:51.651Z] [runtime-status] [14196] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T06:04:51.653Z] [runtime-status] [14196] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T06:04:51.653Z] [runtime-status] [14196] Running api in mode HTTPS
+[debug] [2019-12-10T06:04:51.654Z] [runtime-status] [14196] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\14196
+[debug] [2019-12-10T06:04:51.656Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T06:04:51.660Z] [runtime-status] [14196] Ephemeral server handling GET request
+[debug] [2019-12-10T06:04:51.663Z] [runtime-status] [14196] Ephemeral server survived.
+[info] >  {
+[info] >    iss: 'https://securetoken.google.com/fcc-12hr-fb-clone',
+[info] >    aud: 'fcc-12hr-fb-clone',
+[info] >    auth_time: 1575956385,
+[info] >    user_id: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    sub: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    iat: 1575956385,
+[info] >    exp: 1575959985,
+[info] >    email: 'john@user.com',
+[info] >    email_verified: false,
+[info] >    firebase: { identities: { email: [Array] }, sign_in_provider: 'password' },
+[info] >    uid: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2'
+[info] >  }
+[info] i  functions: Finished "api" in ~2s
+[debug] [2019-12-10T06:04:53.981Z] [worker-api-48aaa0f6-674c-4424-8b2f-e5f08c526632]: IDLE
+[debug] [2019-12-10T06:04:58.902Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/6sIPrLUNpNNYANWfwRE4/unlike --> api
+[debug] [2019-12-10T06:04:58.902Z] [worker-api-48aaa0f6-674c-4424-8b2f-e5f08c526632]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\14196
+[debug] [2019-12-10T06:04:58.902Z] [worker-api-48aaa0f6-674c-4424-8b2f-e5f08c526632]: BUSY
+[debug] [2019-12-10T06:04:58.903Z] [runtime-status] [14196] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T06:04:58.903Z] [runtime-status] [14196] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T06:04:58.903Z] [runtime-status] [14196] Running api in mode HTTPS
+[debug] [2019-12-10T06:04:58.903Z] [runtime-status] [14196] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\14196
+[debug] [2019-12-10T06:04:58.904Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T06:04:58.906Z] [runtime-status] [14196] Ephemeral server handling GET request
+[debug] [2019-12-10T06:04:58.907Z] [runtime-status] [14196] Ephemeral server survived.
+[info] >  {
+[info] >    iss: 'https://securetoken.google.com/fcc-12hr-fb-clone',
+[info] >    aud: 'fcc-12hr-fb-clone',
+[info] >    auth_time: 1575956385,
+[info] >    user_id: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    sub: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    iat: 1575956385,
+[info] >    exp: 1575959985,
+[info] >    email: 'john@user.com',
+[info] >    email_verified: false,
+[info] >    firebase: { identities: { email: [Array] }, sign_in_provider: 'password' },
+[info] >    uid: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2'
+[info] >  }
+[info] i  functions: Finished "api" in ~2s
+[debug] [2019-12-10T06:05:01.233Z] [worker-api-48aaa0f6-674c-4424-8b2f-e5f08c526632]: IDLE
+[debug] [2019-12-10T06:06:51.806Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T06:06:52.807Z] [worker-pool]: Shutting down IDLE worker (api)
+[debug] [2019-12-10T06:06:52.830Z] [worker-~diagnostic~-4464be0b-3e1a-45b5-841d-17bd14bb7f9b]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\12948
+[debug] [2019-12-10T06:06:52.830Z] [worker-~diagnostic~-4464be0b-3e1a-45b5-841d-17bd14bb7f9b]: BUSY
+[debug] [2019-12-10T06:06:52.831Z] [worker-api-48aaa0f6-674c-4424-8b2f-e5f08c526632]: exited
+[debug] [2019-12-10T06:06:52.831Z] [worker-api-48aaa0f6-674c-4424-8b2f-e5f08c526632]: FINISHED
+[debug] [2019-12-10T06:06:53.237Z] [runtime-status] [12948] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T06:06:53.239Z] [runtime-status] [12948] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T06:06:53.242Z] [runtime-status] [12948] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T06:06:53.246Z] [runtime-status] [12948] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T06:06:53.248Z] [runtime-status] [12948] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T06:06:54.026Z] [worker-~diagnostic~-4464be0b-3e1a-45b5-841d-17bd14bb7f9b]: exited
+[debug] [2019-12-10T06:06:54.027Z] [worker-~diagnostic~-4464be0b-3e1a-45b5-841d-17bd14bb7f9b]: FINISHED
+[debug] [2019-12-10T06:11:40.635Z] File D:\ReactProjects\fcc-12h-fb-clone\functions\handlers\screams.js changed, reloading triggers
+[debug] [2019-12-10T06:11:41.676Z] [worker-~diagnostic~-980d7f27-763c-4c85-909d-060f187f61a4]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\11404
+[debug] [2019-12-10T06:11:41.676Z] [worker-~diagnostic~-980d7f27-763c-4c85-909d-060f187f61a4]: BUSY
+[debug] [2019-12-10T06:11:42.137Z] [runtime-status] [11404] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T06:11:42.140Z] [runtime-status] [11404] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T06:11:42.144Z] [runtime-status] [11404] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T06:11:42.148Z] [runtime-status] [11404] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T06:11:42.149Z] [runtime-status] [11404] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T06:11:42.859Z] [worker-~diagnostic~-980d7f27-763c-4c85-909d-060f187f61a4]: exited
+[debug] [2019-12-10T06:11:42.859Z] [worker-~diagnostic~-980d7f27-763c-4c85-909d-060f187f61a4]: FINISHED
+[debug] [2019-12-10T06:12:32.462Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/6sIPrLUNpNNYANWfwRE4/unlike --> api
+[debug] [2019-12-10T06:12:32.483Z] [worker-api-2f848ed1-5aab-424d-91fb-c86eb2fc0d73]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\11728
+[debug] [2019-12-10T06:12:32.483Z] [worker-api-2f848ed1-5aab-424d-91fb-c86eb2fc0d73]: BUSY
+[debug] [2019-12-10T06:12:32.896Z] [runtime-status] [11728] Functions runtime initialized. {"cwd":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions","node_version":"12.13.1"}
+[debug] [2019-12-10T06:12:32.897Z] [runtime-status] [11728] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2019-12-10T06:12:32.901Z] [runtime-status] [11728] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-10T06:12:32.903Z] [runtime-status] [11728] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to D:\google_account\fcc-12hr-fb-clone-93737bb395e0.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2019-12-10T06:12:32.904Z] [runtime-status] [11728] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"D:\\ReactProjects\\fcc-12h-fb-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-10T06:12:33.469Z] [runtime-status] [11728] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T06:12:33.470Z] [runtime-status] [11728] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T06:12:33.470Z] [runtime-status] [11728] Running api in mode HTTPS
+[debug] [2019-12-10T06:12:33.474Z] [runtime-status] [11728] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\11728
+[debug] [2019-12-10T06:12:33.478Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T06:12:33.502Z] [runtime-status] [11728] Ephemeral server handling GET request
+[debug] [2019-12-10T06:12:33.592Z] [runtime-status] [11728] Ephemeral server survived.
+[info] >  {
+[info] >    iss: 'https://securetoken.google.com/fcc-12hr-fb-clone',
+[info] >    aud: 'fcc-12hr-fb-clone',
+[info] >    auth_time: 1575956385,
+[info] >    user_id: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    sub: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    iat: 1575956385,
+[info] >    exp: 1575959985,
+[info] >    email: 'john@user.com',
+[info] >    email_verified: false,
+[info] >    firebase: { identities: { email: [Array] }, sign_in_provider: 'password' },
+[info] >    uid: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2'
+[info] >  }
+[info] i  functions: Finished "api" in ~5s
+[debug] [2019-12-10T06:12:38.649Z] [worker-api-2f848ed1-5aab-424d-91fb-c86eb2fc0d73]: IDLE
+[debug] [2019-12-10T06:19:12.873Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/6sIPrLUNpNNYANWfwRE4/like --> api
+[debug] [2019-12-10T06:19:12.873Z] [worker-api-2f848ed1-5aab-424d-91fb-c86eb2fc0d73]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\11728
+[debug] [2019-12-10T06:19:12.873Z] [worker-api-2f848ed1-5aab-424d-91fb-c86eb2fc0d73]: BUSY
+[debug] [2019-12-10T06:19:12.874Z] [runtime-status] [11728] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T06:19:12.875Z] [runtime-status] [11728] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T06:19:12.875Z] [runtime-status] [11728] Running api in mode HTTPS
+[debug] [2019-12-10T06:19:12.876Z] [runtime-status] [11728] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\11728
+[debug] [2019-12-10T06:19:12.878Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T06:19:12.882Z] [runtime-status] [11728] Ephemeral server handling GET request
+[debug] [2019-12-10T06:19:12.883Z] [runtime-status] [11728] Ephemeral server survived.
+[info] >  {
+[info] >    iss: 'https://securetoken.google.com/fcc-12hr-fb-clone',
+[info] >    aud: 'fcc-12hr-fb-clone',
+[info] >    auth_time: 1575956385,
+[info] >    user_id: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    sub: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    iat: 1575956385,
+[info] >    exp: 1575959985,
+[info] >    email: 'john@user.com',
+[info] >    email_verified: false,
+[info] >    firebase: { identities: { email: [Array] }, sign_in_provider: 'password' },
+[info] >    uid: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2'
+[info] >  }
+[info] i  functions: Finished "api" in ~2s
+[debug] [2019-12-10T06:19:15.579Z] [worker-api-2f848ed1-5aab-424d-91fb-c86eb2fc0d73]: IDLE
+[debug] [2019-12-10T06:19:18.622Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/6sIPrLUNpNNYANWfwRE4/like --> api
+[debug] [2019-12-10T06:19:18.622Z] [worker-api-2f848ed1-5aab-424d-91fb-c86eb2fc0d73]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\11728
+[debug] [2019-12-10T06:19:18.622Z] [worker-api-2f848ed1-5aab-424d-91fb-c86eb2fc0d73]: BUSY
+[debug] [2019-12-10T06:19:18.622Z] [runtime-status] [11728] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T06:19:18.623Z] [runtime-status] [11728] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T06:19:18.623Z] [runtime-status] [11728] Running api in mode HTTPS
+[debug] [2019-12-10T06:19:18.625Z] [runtime-status] [11728] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\11728
+[debug] [2019-12-10T06:19:18.625Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T06:19:18.627Z] [runtime-status] [11728] Ephemeral server handling GET request
+[debug] [2019-12-10T06:19:18.628Z] [runtime-status] [11728] Ephemeral server survived.
+[info] >  {
+[info] >    iss: 'https://securetoken.google.com/fcc-12hr-fb-clone',
+[info] >    aud: 'fcc-12hr-fb-clone',
+[info] >    auth_time: 1575956385,
+[info] >    user_id: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    sub: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    iat: 1575956385,
+[info] >    exp: 1575959985,
+[info] >    email: 'john@user.com',
+[info] >    email_verified: false,
+[info] >    firebase: { identities: { email: [Array] }, sign_in_provider: 'password' },
+[info] >    uid: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2'
+[info] >  }
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-12-10T06:19:19.958Z] [worker-api-2f848ed1-5aab-424d-91fb-c86eb2fc0d73]: IDLE
+[debug] [2019-12-10T06:19:29.216Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/6sIPrLUNpNNYANWfwRE4/unlike --> api
+[debug] [2019-12-10T06:19:29.217Z] [worker-api-2f848ed1-5aab-424d-91fb-c86eb2fc0d73]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\11728
+[debug] [2019-12-10T06:19:29.217Z] [worker-api-2f848ed1-5aab-424d-91fb-c86eb2fc0d73]: BUSY
+[debug] [2019-12-10T06:19:29.218Z] [runtime-status] [11728] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T06:19:29.219Z] [runtime-status] [11728] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T06:19:29.220Z] [runtime-status] [11728] Running api in mode HTTPS
+[debug] [2019-12-10T06:19:29.220Z] [runtime-status] [11728] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\11728
+[debug] [2019-12-10T06:19:29.223Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T06:19:29.227Z] [runtime-status] [11728] Ephemeral server handling GET request
+[debug] [2019-12-10T06:19:29.229Z] [runtime-status] [11728] Ephemeral server survived.
+[info] >  {
+[info] >    iss: 'https://securetoken.google.com/fcc-12hr-fb-clone',
+[info] >    aud: 'fcc-12hr-fb-clone',
+[info] >    auth_time: 1575956385,
+[info] >    user_id: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    sub: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    iat: 1575956385,
+[info] >    exp: 1575959985,
+[info] >    email: 'john@user.com',
+[info] >    email_verified: false,
+[info] >    firebase: { identities: { email: [Array] }, sign_in_provider: 'password' },
+[info] >    uid: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2'
+[info] >  }
+[info] i  functions: Finished "api" in ~2s
+[debug] [2019-12-10T06:19:31.478Z] [worker-api-2f848ed1-5aab-424d-91fb-c86eb2fc0d73]: IDLE
+[debug] [2019-12-10T06:19:34.860Z] Accepted request GET /fcc-12hr-fb-clone/us-central1/api/scream/6sIPrLUNpNNYANWfwRE4/unlike --> api
+[debug] [2019-12-10T06:19:34.860Z] [worker-api-2f848ed1-5aab-424d-91fb-c86eb2fc0d73]: Assigning socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\11728
+[debug] [2019-12-10T06:19:34.860Z] [worker-api-2f848ed1-5aab-424d-91fb-c86eb2fc0d73]: BUSY
+[debug] [2019-12-10T06:19:34.861Z] [runtime-status] [11728] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2019-12-10T06:19:34.861Z] [runtime-status] [11728] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2019-12-10T06:19:34.861Z] [runtime-status] [11728] Running api in mode HTTPS
+[debug] [2019-12-10T06:19:34.862Z] [runtime-status] [11728] Attempting to listen to socketPath: \\?\pipe\D:\ReactProjects\fcc-12h-fb-clone\functions\11728
+[debug] [2019-12-10T06:19:34.863Z] [functions] Runtime ready! Sending request!
+[debug] [2019-12-10T06:19:34.864Z] [runtime-status] [11728] Ephemeral server handling GET request
+[debug] [2019-12-10T06:19:34.865Z] [runtime-status] [11728] Ephemeral server survived.
+[info] >  {
+[info] >    iss: 'https://securetoken.google.com/fcc-12hr-fb-clone',
+[info] >    aud: 'fcc-12hr-fb-clone',
+[info] >    auth_time: 1575956385,
+[info] >    user_id: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    sub: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2',
+[info] >    iat: 1575956385,
+[info] >    exp: 1575959985,
+[info] >    email: 'john@user.com',
+[info] >    email_verified: false,
+[info] >    firebase: { identities: { email: [Array] }, sign_in_provider: 'password' },
+[info] >    uid: 'ylhqowSB7nhTGxhiNYVZpEQRbPg2'
+[info] >  }
+[info] i  functions: Finished "api" in ~1s
+[debug] [2019-12-10T06:19:36.123Z] [worker-api-2f848ed1-5aab-424d-91fb-c86eb2fc0d73]: IDLE
