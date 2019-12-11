@@ -6,7 +6,7 @@ const { getAllScreams, postOneScream, getScream,
     commentOneScream, likeScream, unlikeScream,
     deleteScream } = require('./handlers/screams')
 const {signup, login, uploadImage, getAuthenticatedUser,
-    addUserDetails} = require('./handlers/users')
+    addUserDetails, getUserDetails, markNotificationsRead} = require('./handlers/users')
 const FBAuth = require('./util/FBAuth')
 
 // exports.helloWorld = functions.https.onRequest((request, response) => {
@@ -26,6 +26,8 @@ app.get('/user', FBAuth, getAuthenticatedUser)
 app.post('/signup', signup)
 app.post('/login', login)
 app.post('/user/image', FBAuth, uploadImage)
+app.get('/user/:handle', getUserDetails);
+app.post('/notifications', FBAuth, markNotificationsRead);
 
 exports.api = functions.https.onRequest(app)
 
@@ -34,7 +36,7 @@ exports.createNotificationOnLike = functions.firestore.document('likes/{id}')
         return db.doc(`/screams/${snapshot.data().screamId}`)
         .get()
         .then(doc => {
-            if(doc.exists){
+            if(doc.exists && doc.data().userHandle !== snapshot.data().userHandle){
                 return db.doc(`/notifications/${snapshot.id}`).set({
                     createdAt: new Date().toISOString(),
                     recipient: doc.data().userHandle,
@@ -44,9 +46,6 @@ exports.createNotificationOnLike = functions.firestore.document('likes/{id}')
                     screamId: doc.id
                 })
             }
-        })
-        .then(() =>{
-            return
         })
         .catch(err => {
             console.error(err)
@@ -71,7 +70,7 @@ exports.createNotificationOnComment = functions
         return db.doc(`/screams/${snapshot.data().screamId}`)
         .get()
         .then(doc => {
-            if(doc.exists){
+            if(doc.exists && doc.data().userHandle !== snapshot.data().userHandle){
                 return db.doc(`/notifications/${snapshot.id}`).set({
                     createdAt: new Date().toISOString(),
                     recipient: doc.data().userHandle,
@@ -81,9 +80,6 @@ exports.createNotificationOnComment = functions
                     screamId: doc.id
                 })
             }
-        })
-        .then(() =>{
-            return
         })
         .catch(err => {
             console.error(err)
